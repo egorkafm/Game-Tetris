@@ -37,3 +37,19 @@ body {
 .fixedCell {
   background-color: green;
 }
+#next-tetro {
+  font-size: 0;
+  left: 100px;
+  top: 200px;
+  position: absolute;
+}
+#game-over {
+  color: green;
+  display: none;
+  font-size: 100px;
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
